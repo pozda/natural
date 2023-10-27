@@ -1,0 +1,104 @@
+@font-face {
+  font-family: Poppins;
+  font-weight: 400;
+  src: url('./fonts/Poppins-Regular.ttf') format('truetype'); 
+}
+
+@font-face {
+  font-family: Poppins;
+  font-weight: 800;
+  src: url('./fonts/Poppins-ExtraBold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Space Mono';
+  font-weight: 800;
+  src: url('./fonts/SpaceMono-Bold.ttf') format('truetype');
+}
+
+:root {
+  --color-primary: rgb(53 68 79 / 100%); /* #35444f; */
+  --color-secondary: rgb(247 108 94 / 100%);  /* #F76C5E; */
+  --color-background: rgb(241 231 220 / 100%); /* #F1E7DC; */
+  --color-border: rgb(202 198 193 /100%); /* #CAC6C1; */
+  --font-family-primary: Poppins, Arial, Helvetica, sans-serif;
+  --font-family-secondary:'Space Mono', Consolas, Monaco, 'Courier New', monospace;
+  --font-weight-regular: 400;
+  --font-weight-bold: 700;
+  --font-weight-black: 800;
+  --font-size-small: 1rem;
+  --font-size-regular: 1.125rem;
+  --font-size-medium: 1.5rem;
+  --font-size-large: 2rem;
+  --font-size-xtra: 3rem;
+  --line-height-small: 1.25;
+  --line-height-regular: 1.5;
+  --line-height-medium: 1.75;
+  --line-height-large: 2rem;
+  --color-gradient: linear-gradient(-135deg, rgb(247 108 94 / 50%), rgb(241 231 220 / 40%));
+  --border-radius-round: 50px;
+  --transition-property: color, background-color, border-color, text-decoration-color, fill, stroke;
+  --transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-duration: 300ms;
+ 
+  font-family: var(--font-family-primary);
+  line-height: var(--line-height-regular);
+  font-weight: var(--font-weight-regular);
+  color-scheme: light dark;
+  color: var(--color-primary);
+  background-color: var(--color-background);
+  font-synthesis: none;
+  text-rendering: optimizelegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+a {
+  color: var(--color-primary);
+  display: inline-block; 
+  margin-top: -1px; 
+  line-height: var(--line-height-regular);
+  font-weight: var(--font-weight-black);
+  transition-property: var(--transition-property);
+  transition-timing-function: var(var(--transition-timing-function));
+  transition-duration: var(--transition-duration); 
+}
+
+a:hover {
+  color: var(--color-secondary);
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  width: 100%;
+}
+
+/* experimental dark more, feel free to try it, it works but not really wcag compatible */
+
+/* @media (prefers-color-scheme: dark) {
+  :root {
+    --color-primary:  rgb(241 231 220 / 100%);
+    --color-secondary: rgb(247 108 94 / 100%);  
+    --color-background: rgb(53 68 79 / 100%); 
+    --color-border:  rgb(53 68 79 / 100%); 
+    
+    background-color: #486a82;
+  }
+} */
+
+.container {
+  max-width: 1280px;
+  width: 100%;
+}
+
+.forest{
+  min-height: 500px;
+  background: center center no-repeat;
+  background-size: 100% 100%;
+}

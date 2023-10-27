@@ -1,0 +1,20 @@
+.btn {
+  padding: .25rem 1rem;
+  display: inline-block; 
+  margin-top: -1px; 
+  text-decoration: none;
+  border: 2px solid var(--color-secondary);
+  color: var(--color-primary);
+  border-radius: var(--border-radius-round); 
+  font-size: var(--font-size-regular);
+  line-height: var(--line-height-medium); 
+  font-weight: var(--font-weight-black); 
+  transition-property: var(--transition-property);
+  transition-timing-function: var(--transition-timing-function);
+  transition-duration: var(--transition-duration); 
+}
+
+.btn:hover {
+    color: var(--color-background);
+    background-color: var(--color-secondary);
+}

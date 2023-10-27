@@ -1,0 +1,78 @@
+.author {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    border: 1px solid var(--color-secondary);
+    margin: 2rem 0;
+  }
+  
+  .authorDetails {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 1rem;
+  }
+  
+  .authorInitials {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    height: 60px;
+    padding: 0.25rem;
+    border-radius: var(--border-radius-round);
+    border: 3px solid var(--color-secondary);
+    color: var(--color-primary);
+    font-family: var(--font-family-secondary);
+    background: var(--color-gradient);
+    font-size: var(--font-size-medium);
+  }
+  
+  .authorEmail {
+    margin: 0;
+    text-transform: lowercase;
+    font-family: var(--font-family-secondary);
+    line-height: var(--line-height-regular);
+  }
+  
+  .authorName {
+    font-size: var(--font-size-regular);
+    line-height: var(--line-height-regular);
+    margin: 0;
+  }
+
+  .authorMoto {
+    font-family: var(--font-family-secondary);
+    margin: 0;
+  }
+  
+  .authorCatchPhrase {
+    font-size: var(--font-size-medium);
+    line-height: var(--line-height-medium);
+    font-weight: var(--font-weight-regular);
+  }
+
+  .authorTitle {
+    font-size: var(--font-size-medium);
+    line-height: var(--line-height-large);
+    font-weight: var(--font-weight-black);
+    color: var(--color-secondary);
+    margin-top: 0;
+  }
+  
+  .authorInfo {
+    display: flex;
+    gap: 1rem;
+  }
+  
+  .authorPhone {
+    margin: 0;
+    font-family: var(--font-family-secondary);
+    line-height: var(--line-height-regular);
+  }
+  
+  .authorWebsite {
+    margin: 0;
+    font-family: var(--font-family-secondary);
+    line-height: var(--line-height-regular);
+  }

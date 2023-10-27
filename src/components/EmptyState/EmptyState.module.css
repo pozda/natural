@@ -1,0 +1,13 @@
+.emptyState {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.emptyStateTitle {
+    text-align: center;
+}
+
+.emptyStateImage {
+    margin-bottom: 2rem;
+}

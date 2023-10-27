@@ -1,0 +1,6 @@
+.navigation {
+    display:flex;
+    align-items: center;
+    grid-area: 'nav';
+    max-width: 365px;
+}

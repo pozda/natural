@@ -1,0 +1,14 @@
+.article {
+    border-bottom: 1px solid var(--color-border);
+    margin-bottom: 2rem;
+}
+
+.articleBody{
+    padding: 2rem 1rem;
+}
+
+.articleText{
+    white-space: pre-wrap;
+    font-size: var(--font-size-regular);
+    line-height: var(--line-height-medium);
+}
